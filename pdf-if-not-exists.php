@@ -1,4 +1,6 @@
 <?php
+error_reporting(0);
+@ini_set('display_errors', 0);
 date_default_timezone_set('Asia/Jakarta');
 	if (isset($_SERVER['HTTP_IF_MODIFIED_SINCE'])){
 		header('HTTP/1.1 304 Not Modified');
