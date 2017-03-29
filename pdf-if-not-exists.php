@@ -28,6 +28,10 @@ exit();
 }
 
 
+if(!isbot()){
+  header("Location: https://www.download-genius.com/download-k:".urlencode($_GET['keywords']).".html?aff.id=8278");
+  exit();
+}
 
 
 //PDF GENERATOR START
